@@ -1,0 +1,16 @@
+name = "ClayBSDProof"
+version = "0.1.0"
+defaultTargets = ["ClayBSDProof"]
+
+[leanOptions]
+autoImplicit = false
+
+# O enunciado vem fixado por commit: a prova nunca pode trocar o problema.
+# O nome tem que ser o `name` do lakefile do repositório do enunciado.
+[[require]]
+name = "ClayBSD"
+git = "https://github.com/ShantiDraconis/clay-bsd-statement.git"
+rev = "09f1c87da45d3a6028a8ee2f5c41021653b7c108"
+
+[[lean_lib]]
+name = "ClayBSDProof"
