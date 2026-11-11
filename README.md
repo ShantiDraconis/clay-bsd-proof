@@ -1,5 +1,7 @@
 # Birch e Swinnerton-Dyer — prova (Lean 4 / Mathlib)
 
+Autor: Tiago Paschoalatto Fagliari — ORCID [0009-0006-6874-3910](https://orcid.org/0009-0006-6874-3910)
+
 Depende do enunciado em [`ShantiDraconis/clay-bsd-statement`](https://github.com/ShantiDraconis/clay-bsd-statement),
 fixado no commit `09f1c87`. O alvo é `ClayBSD.Conjecture`, sem redefinição.
 
